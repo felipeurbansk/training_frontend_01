@@ -1,8 +1,9 @@
 # Replicate template Voyage
 
+# Objective
+
 ![](https://github.com/felipeurbansk/training_frontend_01/blob/master/demo/template.jpg)
 
+# Status
 
-# Work in progress
-
-![](https://github.com/felipeurbansk/training_frontend_01/blob/master/demo/work-in-progress.png)
+Work in progress.
