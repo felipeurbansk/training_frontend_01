@@ -1,8 +1,8 @@
 # Replicate template Voyage
 
-![Template Voyage](demo/template.jpg)
+![](https://github.com/felipeurbansk/training_frontend_01/blob/master/demo/template.jpg)
 
 
 # Work in progress
 
-![Development](demo/work-in-progress.jpg)
+![](https://github.com/felipeurbansk/training_frontend_01/blob/master/demo/work-in-progress.png)
