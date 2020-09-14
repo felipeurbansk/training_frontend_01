@@ -155,6 +155,107 @@ input {
 }
 
 .offers-content {
-    height: 480px;
+    height: 380px;
     background: #DDD;
+ }
+
+ .offers-content {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+ }
+
+ .offers-content .title {
+     display: flex;
+     color: #2A3D4B;
+     flex-direction: column;
+     justify-content: space-evenly;
+     align-items: center;
+ }
+
+ .offers-content .title span {
+    color: #2A3D4B;
+ }
+
+ .offers-content .card-image img {
+     width: 250px;
+ }
+
+ .offers-content .menu-list {
+     display: inline-flex;
+     list-style: none;
+ }
+
+ .offers-content .menu-list li {
+     margin: 0 10px;
+ }
+
+ .offers-content .card {
+     display: flex;
+     flex-direction: column;
+ }
+
+ .offers-content .card-footer {
+     /* background: #2A3D4B; */
+     background: #d6d6d6;
+     position: relative;
+     display: flex;
+     top: -5px;
+     height: 50px;
+     justify-items: center;
+     flex-direction: column;
+     padding: 5px 20px;
+ }
+
+ .offers-content .card-footer .card-title{
+    color: #2A3D4B;
+    font-weight: 700;
+ }
+
+ .card-footer .card-subtitle {
+     font-size: 13px;
+     color: #000;
+ }
+
+ .card.active .card-footer {
+    background: #2A3D4B;
+ }
+
+ .card.active .card-footer > span{
+    color: #FFF;
+ }
+
+ .holidays-type {
+     display: flex;
+     flex-direction: column;
+     justify-content: space-evenly;
+     align-content: center;
+     background-image: url('../images//bg_2.jpg');
+     background-size: cover;
+     height: 380px;
+ }
+
+ .holidays-type .holidays-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+ }
+
+ .holidays-type .holidays-list-types {
+    display: inline-flex;
+    justify-content: center;
+    list-style: none;
+ }
+
+ .holidays-type .holidays-list-types li {
+     display: flex;
+     flex-direction: column;
+     justify-items: center;
+     align-items: center;
+ }
+
+ .holidays-type .holidays-list-types li svg {
+     font-size: 65px;
  }
